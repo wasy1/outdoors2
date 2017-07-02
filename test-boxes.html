@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>#LifeOutdoors</title>
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+		<meta name="robots" content="NOODP">
+	<meta name="author" content="Blacks #EverydayLifeOutdoors" />
+	<meta name="viewport" content="width=device-width">
+
+
+
+
+<style type="text/css">
+.wrap{border:2px solid red; max-width:1280px; margin:0 auto;}
+
+#bgvid{width:100%}
+img{
+	width:100%;
+	height: auto;
+	display: block;
+}
+
+/* Isotope */
+#profiles-grid, #style-grid{
+	width: 96%;
+	max-width: 1000px;
+	padding: 2% 0 1%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.grid-item{ width: 48%; padding: 0 1%; }
+#style-grid .grid-item{ margin-bottom: 2%; }
+@media screen and (min-width: 650px) {
+	.grid-item{ width: 31.333%; padding: 0 1%; }
+}
+
+/* Again, youâ€™re free to use and define the classes: */
+.column { float: left; }
+.size-1of1 { width: 100%; }
+.size-1of2 { width: 48%; padding: 0 1%; }
+.size-1of3 { width: 31.333%; padding: 0 1%; }
+
+
+		/* clear fix */
+		.grid:after,.grid-item:after {
+		  content: '';
+		  display: block;
+		  clear: both;
+		}
+		.grid-item {
+		  float: left;
+		}
+
+		img[src*="//bat.bing.com/action/"]{
+			display:none;
+		}
+
+        /* Clearfix */
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+	</style>
+    </head>
+
+    <body>
+
+
+<div class="wrap">
+
+<div id="top" class="group">
+	
+
+	<div class="videoContainer">
+		<video autoplay poster="/templates/blacks.co.uk/features/lifeoutdoors/video/teaser.jpg" id="bgvid">
+		    <source src="http://www.blacks.co.uk/templates/blacks.co.uk/features/lifeoutdoors/video/teaser.webm" type="video/webm">
+		    <source src="  http://www.blacks.co.uk/templates/blacks.co.uk/features/lifeoutdoors/video/teaser.mp4" type="video/mp4">
+
+          
+		</video>
+	</div>
+
+	<div id="eq">
+		<img src="equaliser.gif" alt="EQ" style="width: 40px; height:auto;" />
+	</div>
+	<button id="vidmute"><img src="mute.png" alt="Muted" /></button>
+	<button id="vidpause"><img src="pause.png" alt="Pause" /></button>
+
+
+</div>
+
+<div id="content">
+	<section id="thumbs" class="group">
+		<div id="profiles-grid">
+                <div class="grid">
+               <div class="grid-item">
+                                                <a href="/lifeoutdoors/nero-joshua" manual_cm_re="LifeOutdoors-_-Personalities-_-NeroJoshua">
+                                                                <img src="profiles-NJ.jpg" alt="Nero & Joshua" />
+                                                                <p><span class="title">Nero & Joshua</span><br/>Cycling Europe</p>
+                                                </a>
+                                </div>
+                                <div class="grid-item">
+                                                <a href="/lifeoutdoors/ben-anderson" manual_cm_re="LifeOutdoors-_-Personalities-_-BenAnderson">
+                                                                <img src="profiles-BA.jpg" alt="Ben Anderson" />
+                                                                <p><span class="title">Ben Anderson</span><br/>Television Director</p>
+                                                </a>
+                                </div>
+                                <div class="grid-item">
+                                                <a href="/lifeoutdoors/helen-entwisle" manual_cm_re="LifeOutdoors-_-Personalities-_-HelenEntwisle">
+                                                                <img src="profiles-HE.jpg" alt="Helen Entwisle" />
+                                                                <p><span class="title">Helen Entwhisle</span><br/>Illustrator</p>
+                                                </a>
+                                </div>
+                                <div class="grid-item">
+                                                <a href="/lifeoutdoors/david-sudworth" manual_cm_re="LifeOutdoors-_-Personalities-_-DavidSudworth">
+                                                                <img src="profiles-DS.jpg" alt="David Sudworth" />
+                                                                <p><span class="title">David Sudworth</span><br/>Allotment gardener</p>
+                                                </a>
+                                </div>
+                                <div class="grid-item">
+                                                <a href="/lifeoutdoors/tracey-blackwell" manual_cm_re="LifeOutdoors-_-Personalities-_-TraceyBlackwell">
+                                                                <img src="profiles-TB.jpg" alt="Tracey Blackwell" />
+                                                                <p><span class="title">Tracey Blackwell</span><br/>Dry Stone Waller</p>
+                                                </a>
+                                </div>
+                                <div class="grid-item">
+                                                <a href="/lifeoutdoors/robert-nixon" manual_cm_re="LifeOutdoors-_-Personalities-_-RobertNixon">
+                                                                <img src="profiles-RN.jpg" alt="Robert Nixon" />
+                                                                <p><span class="title">Robert Nixon</span><br/>Lifestyle Blogger</p>
+                                                </a>
+                                </div>
+ 
+
+</div>
+
+		<a id="load-profiles" class="view-more" href="#"><img class="plus" src="plus.png" alt="[plus]" /> View more</a>
+	</div>
+
+
+
+   
+
+</div><!--wrap div -->
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="blazy.min.js"></script>
+<script src="isotope.pkgd.min.js"></script>
+<script src="imagesloaded.pkgd.min.js"></script>
+<script src="deep-link.min.js"></script>
+
+<script>
+
+
+(function($){
+	var $profilesGrid;
+
+   	function profilesUnordered() {
+      	$profilesGrid = $('#profiles-grid .grid').isotope({
+			itemSelector: '.grid-item',
+			masonry: {
+		    	columnWidth: '.grid-item'
+		    }
+		});
+   	};
+
+   	function styleUnordered() {
+      	$styleGrid = $('#style-grid .grid').isotope({
+			itemSelector: '.grid-item',
+			masonry: {
+		    	columnWidth: '.grid-item'
+		    }
+		});
+   	};
+
+	$(document).ready( function() {
+		var vid = document.getElementById("bgvid");
+		vid.volume = 0;
+		pauseButton = document.getElementById("vidpause");
+		muteButton = document.getElementById("vidmute");
+		function vidFade() {
+		    vid.classList.add("stopfade");
+		}
+		vid.addEventListener('ended', function() {
+			document.getElementById("eq").style.display = 'none';
+			pauseButton.innerHTML = '<img src="/templates/blacks.co.uk/features/lifeoutdoors/video/icons/play.png" alt="Play" />';
+			// only functional if "loop" is removed 
+			vid.pause();
+			// to capture IE10
+			vidFade();
+			setTimeout(function(){ vid.currentTime = 0; }, 1500);
+		});
+		pauseButton.addEventListener("click", function() {
+		    vid.classList.toggle("stopfade");
+			if (vid.paused) {
+				vid.play();
+				document.getElementById("eq").style.display = 'block';
+				pauseButton.innerHTML = '<img src="/templates/blacks.co.uk/features/lifeoutdoors/video/icons/pause.png" alt="Pause" />';
+			} else {
+		        vid.pause();
+		        document.getElementById("eq").style.display = 'none';
+		        pauseButton.innerHTML = '<img src="/templates/blacks.co.uk/features/lifeoutdoors/video/icons/play.png" alt="Play" />';
+			}
+		});
+		muteButton.addEventListener("click", function() {
+			if (vid.volume == 0) {
+				muteButton.innerHTML = '<img src="/templates/blacks.co.uk/features/lifeoutdoors/video/icons/unmute.png" alt="Muted" />';
+				vid.volume = 1;
+			} else {
+				muteButton.innerHTML = '<img src="/templates/blacks.co.uk/features/lifeoutdoors/video/icons/mute.png" alt="Unmute" />';
+				vid.volume = 0;
+			}
+		});
+
+		/* ISOTOPE */
+		profilesUnordered();
+		styleUnordered();
+
+		$profilesGrid.imagesLoaded().progress( function() {
+			$profilesGrid.isotope('layout');
+		});
+
+		$styleGrid.imagesLoaded().progress( function() {
+			$styleGrid.isotope('layout');
+		});
+
+		$('#load-profiles').on( 'click', function(event) {
+			event.preventDefault();
+			// create new item elements
+			var $items = $('#profiles-grid .view-more').find('.grid-item').slice(0,2);
+			// append elements to container
+			$profilesGrid.append( $items )
+		  	// add and lay out newly appended elements
+		  	.isotope( 'appended', $items );
+		});
+
+		$('#load-styles').on( 'click', function(event) {
+			event.preventDefault();
+			// create new item elements
+			var $items = $('#style-grid .view-more').find('.grid-item').slice(0,2);
+			// append elements to container
+			$styleGrid.append( $items )
+		  	// add and lay out newly appended elements
+		  	.isotope( 'appended', $items );
+		});
+	});
+
+	// Fixed nav
+	var $fixed = false;
+	var $topTrigger;
+
+	function topSize(){
+		$topTrigger = $('#top').outerHeight();
+	}
+	topSize();
+
+	$(document).scroll(function() {
+		topSize();
+
+		if( $(this).scrollTop() > $topTrigger ) {
+	        if( !$fixed ) {
+	            $fixed = true;
+	            $('#nav').css({'position':'fixed', 'top':'0'});
+	            $('#content').css({'padding-top':'50px'});
+	        }
+	    } else {
+	        if( $fixed ) {
+	            $fixed = false;
+	            $('#nav').css({'position':'relative'});
+	            $('#content').css({'padding-top':'0'});
+	        }
+	    }
+	});
+})( jQuery );
+
+
+
+
+
+// Lazy load
+;(function() {
+    var bLazy = new Blazy();
+})();
+
+
+</script>
+
+    </body>
+</html>
